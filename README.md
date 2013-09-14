@@ -8,13 +8,14 @@ JSQL
 A simple SQL lexer/parser implementation written in Java that uses JFlex
 under the covers. It's just a simple project I mocked up to experiment with
 the SQL dialect, concepts, and to have fun with query parsers. Nothing
-production quality here, albeit interesting from a research standpoint.
+production quality here, albeit interesting from a learning standpoint with
+respect to using SQL with the Java type system.
 
 # Dependencies
 
 The project has the following dependencies:
 
-    Log4j 1.2.17
+    JavaCC (net.java.dev.javacc) 5.0
 
 # Build Procedure
 
